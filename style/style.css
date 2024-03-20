@@ -1,0 +1,66 @@
+@import url("font.css");
+@import url("plugins.css");
+@import url("login.css");
+@import url("utilisateur.css");
+@import url("dashboard.css");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: normal;
+}
+
+select,
+textarea,
+input {
+    outline: 0;
+    border: 1px solid #b7c9f2;
+    font-size: 0.9rem;
+    padding: 8px 13px;
+    margin-bottom: 15px;
+    color: #000;
+    border-radius: 2px;
+    font-family: "Poppins";
+    font-weight: normal;
+    z-index: 0;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #b7c9f2;
+}
+
+textarea:focus::placeholder,
+input:focus::placeholder {
+    color: transparent;
+}
+
+.flex-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-weight: 100;
+    color: #ff8911;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}

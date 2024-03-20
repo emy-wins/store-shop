@@ -1,0 +1,77 @@
+.s-login {
+    background-color: whitesmoke;
+}
+
+.warp-login {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.form-login {
+    padding: 80px 40px 40px 40px;
+    background-color: white;
+    border-radius: 12px;
+    max-width: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.form-login .cercle-user {
+    border: 6px solid whitesmoke;
+    box-shadow: 2px 9px 9px #00000021;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #fdeebc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+.form-login .cercle-user img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.form-login input {
+    width: 100%;
+}
+
+.btn-form,
+.form-login .form-btn button {
+    background-color: #ff8911;
+    border-radius: 2px;
+    color: white;
+    outline: 0;
+    border: 0;
+    width: 140px;
+    height: 35px;
+    margin: auto;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-bottom: 20px;
+}
+
+.btn-form:hover {
+    background-color: #fdbf60;
+}
+
+.form-login .form-btn button:hover {
+    background-color: #fdbf60;
+    box-shadow: -5px -5px 0px #ff8911;
+    transition: 0.2s;
+}
+
+.form-login .form-btn {
+    text-align: center;
+}
